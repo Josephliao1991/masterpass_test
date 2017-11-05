@@ -6,7 +6,7 @@ $(function() {
         
         // Invoke below javascript method
         masterpass.checkout({
-            "checkoutId": "ce2062f5c2594b7c9997a401064501a1",                                   // Merchant checkout identifier received during when merchant onboarded for masterpass
+            "checkoutId": "070d8d05b8ab42d6867b56e028bfb2be",                                   // Merchant checkout identifier received during when merchant onboarded for masterpass
             "allowedCardTypes": ["master"],               // Card types accepted by merchant
             "amount": "1",                                                                 // Shopping cart subtotal
             "currency": "USD",                                                                  // Currency code for cart
