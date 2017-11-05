@@ -35,6 +35,8 @@ app.get('/', (req, res, next) => {
 
 })
 
+app.listen(process.env.PORT || 8080)
+
 function sendRequest(options, Callback) {
     
     request(options, function(error, response, result) {
