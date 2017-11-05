@@ -35,6 +35,13 @@ app.get('/', (req, res, next) => {
 
 })
 
+app.get('/callback', (req, res, next) => {
+    
+    res.json({"query":req.query, "body":req.body})
+
+})
+
+
 app.listen(process.env.PORT || 8080)
 
 function sendRequest(options, Callback) {
