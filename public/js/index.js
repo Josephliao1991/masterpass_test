@@ -5,6 +5,7 @@ $(function() {
     $sendButton.click(function() {
         
         // Invoke below javascript method
+        /*
         masterpass.checkout({
             "checkoutId": "ce2062f5c2594b7c9997a401064501a1",                                   // Merchant checkout identifier received during when merchant onboarded for masterpass
             "allowedCardTypes": ["master"],               // Card types accepted by merchant
@@ -18,6 +19,12 @@ $(function() {
             "requestPairing": true,                                                 // Set true to request pairing consent from consumer
             "userId": "gn02239440"                                                         // The unique consumer user identifier from the Me
         });
+        */
+        masterpass.checkout({
+            "checkoutId": "ce2062f5c2594b7c9997a401064501a1",                                   // Merchant checkout identifier received during when merchant onboarded for masterpass
+            "userId": "gn02239440"                                                         // The unique consumer user identifier from the Me
+        });
+
 
     })
 
