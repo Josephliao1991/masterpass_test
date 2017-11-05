@@ -1,5 +1,7 @@
 $(function() {
     
+    var $sendButton = $('#sendButton')
+    
     $sendButton.click(function() {
         
         // Invoke below javascript method
