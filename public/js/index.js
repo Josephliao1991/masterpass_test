@@ -34,9 +34,9 @@ $(function() {
             "currency": "USD",                                                        // The ISO-4217 code for currency of the transaction
             "suppress3Ds": false,                                                       // Set true to skip 3DS step
             "suppressShippingAddress": false,                                           // Set true when cart contains digital goods only
-            //"requestPairing": true,                                                 // Set true to request pairing consent from consumer
+            "requestPairing": true,                                                 // Set true to request pairing consent from consumer
             "callbackUrl": "https://masterpass-test.herokuapp.com/callback",                                            // The URL to which the browser must redirect when checkout is complete
-            //"userId": "Test",                                                         // The unique consumer user identifier from the Merchant site
+            "userId": "Test",                                                         // The unique consumer user identifier from the Merchant site
             "shippingLocationProfile":"US,AU,BE",                                     // Shipping locations supported by merchant - configured in merchant portal
           });
 
