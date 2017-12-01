@@ -34,7 +34,7 @@ $(function() {
             "allowedCardTypes": ["master"],     // Card brands accepted by merchant
             "amount": "789.53",                                                       // Shopping cart subtotal amount
             "currency": "USD",                                                        // The ISO-4217 code for currency of the transaction
-            "suppress3Ds": false,                                                       // Set true to skip 3DS step
+            "suppress3Ds": true,                                                       // Set true to skip 3DS step
             "suppressShippingAddress": false,                                           // Set true when cart contains digital goods only
             "requestPairing": true,                                                 // Set true to request pairing consent from consumer
             "callbackUrl": "https://masterpass-test.herokuapp.com/callback",                                            // The URL to which the browser must redirect when checkout is complete
