@@ -44,7 +44,7 @@ $(function() {
         // Standard Checkout
           masterpass.checkout({
           "checkoutId": "99be44ecfc9d4481abad54b285d7c553",                                   // Merchant checkout identifier received when merchant onboarded for masterpass
-          "allowedCardTypes": ["master"],               // Card types accepted by merchant
+          "allowedCardTypes": ["master,amex,visa"],               // Card types accepted by merchant
           "amount": "1.00",                                                                 // Shopping cart subtotal
           "currency": "USD",                                                                  // Currency code for cart
           "shippingLocationProfile": "US,AU,BE",                                              // Shipping locations supported by merchant - configured in merchant portal
